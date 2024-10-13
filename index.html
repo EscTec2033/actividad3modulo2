@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h3{
+        text-align: center;
+    }
+    table{
+        margin: auto;
+        border-collapse: collapse;
+    }
+    td{
+        padding: 10px;
+    }
+</style>
+<body>
+    <table border="2">
+        <thead>
+            <tr>
+                <td><h3>Formulario</h3></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Escriba su nombre">
+                </td>
+            </tr>
+            <tr>
+               <td>
+                    <label for="color">Cual es tu color favorito?</label>
+                    <select id="color">
+                        <option value="azul">Azul</option>
+                        <option value="rojo">Rojo</option>
+                        <option value="verde">Verde</option>
+                        <option value="amarillo">Amarillo</option>
+                        <option value="negro">Negro</option>
+                    </select>
+               </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>
+                    <label for="uso">Esta deacuerdo con los terminos de uso</label>
+                    <input type="checkbox" id="uso">
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
